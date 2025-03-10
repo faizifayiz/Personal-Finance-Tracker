@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <corners android:radius="20dp"/> <!-- ✅ Increased corner radius -->
+        <size android:height="32dp"/> <!-- ✅ Increased track height -->
+        <solid android:color="@color/light_gray"/> <!-- Default light mode color -->
+    </shape>
+</selector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/foodBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Budget" />
+
+    <EditText
+        android:id="@+id/transportBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Transport Budget" />
+
+    <EditText
+        android:id="@+id/entertainmentBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entertainment Budget" />
+
+    <EditText
+        android:id="@+id/billsBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bills Budget" />
+
+    <EditText
+        android:id="@+id/miscellaneousBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Miscellaneous Budget" />
+
+    <Button
+        android:id="@+id/saveBudgetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Budgets" />
+</LinearLayout>
